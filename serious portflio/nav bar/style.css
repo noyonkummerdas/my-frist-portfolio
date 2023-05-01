@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    
+    padding-left:3%;
+    font-weight: 700px;
+    font-size:px;
+    color:rgb(247, 127, 23);
+}
+a{
+    padding:  5px 10px;
+
+}
+li{
+    list-style-type: none;
+    
+}
+.father{
+    weight: 100%;
+    background-color: rgb(249, 246, 243);
+    height:2%;
+    box-shadow: 6px 8px 7px gray;
+}
+.mother-div{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.link-navbar{
+    display: inline-flex;
+    padding: 5px 5px;
+    
+}
+.link-navbar li{
+    padding: 5px;
+    font-style: none;
+}
+.link-navbar li a {
+    text-decoration: none;
+    font-size: 10px;
+    color:aliceblue;
+    background-image: linear-gradient(rgb(30, 30, 82), blue);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(233, 58, 58);
+}
+.link-navbar li a:hover{
+    color:rgb(247, 127, 23)
+
+}
+.button{
+    padding: 5px 25px 5px 20px;
+    box-shadow: 10px 5px 3px grey;
+}
+button{
+    background-color: orange;
+    border-radius: 5px;
+}
+.button a{
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+button:hover{
+    color:aquamarine;
+}
